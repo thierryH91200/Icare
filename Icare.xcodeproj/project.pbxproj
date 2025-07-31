@@ -11,19 +11,6 @@
 		03390AD42E3B350E000B318A /* _config.yml in Resources */ = {isa = PBXBuildFile; fileRef = 03390AD32E3B350E000B318A /* _config.yml */; };
 		03390AE42E3B35E9000B318A /* README_fr.md in Resources */ = {isa = PBXBuildFile; fileRef = 03390AE32E3B35E9000B318A /* README_fr.md */; };
 		03390AE52E3B35E9000B318A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03390AE22E3B35E9000B318A /* README.md */; };
-		03390AFD2E3B3D8B000B318A /* setupForNilLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03390AF82E3B3D8B000B318A /* setupForNilLibrary.swift */; };
-		03390AFE2E3B3D8B000B318A /* PegaseUIDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03390AF72E3B3D8B000B318A /* PegaseUIDataApp.swift */; };
-		03390AFF2E3B3D8B000B318A /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03390AF42E3B3D8B000B318A /* Content.swift */; };
-		03390B002E3B3D8B000B318A /* Sidebar1A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03390AF92E3B3D8B000B318A /* Sidebar1A.swift */; };
-		03390B012E3B3D8B000B318A /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03390AF62E3B3D8B000B318A /* OutlineViewController.swift */; };
-		03390B022E3B3D8B000B318A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03390AFA2E3B3D8B000B318A /* SplashScreen.swift */; };
-		03390B032E3B3D8B000B318A /* Help.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 03390AF12E3B3D8B000B318A /* Help.xcstrings */; };
-		03390B042E3B3D8B000B318A /* Menu.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 03390AF32E3B3D8B000B318A /* Menu.xcstrings */; };
-		03390B052E3B3D8B000B318A /* Account.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 03390AF22E3B3D8B000B318A /* Account.xcstrings */; };
-		03390B062E3B3D8B000B318A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 03390AF02E3B3D8B000B318A /* Localizable.xcstrings */; };
-		03390B072E3B3D8B000B318A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03390AF52E3B3D8B000B318A /* Info.plist */; };
-		03390B082E3B3D8B000B318A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 03390AFB2E3B3D8B000B318A /* LICENSE */; };
-		03390B092E3B3D8B000B318A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03390AFC2E3B3D8B000B318A /* Assets.xcassets */; };
 		03390B0C2E3B5446000B318A /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 03390B0B2E3B5446000B318A /* DGCharts */; };
 		03390B0F2E3B5467000B318A /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 03390B0E2E3B5467000B318A /* SwiftDate */; };
 /* End PBXBuildFile section */
@@ -32,32 +19,8 @@
 		03390AC02E3B3464000B318A /* Icare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Icare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03390AD12E3B34FE000B318A /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		03390AD32E3B350E000B318A /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = _config.yml; sourceTree = "<group>"; };
-		03390AD62E3B3550000B318A /* contribute.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = contribute.md; sourceTree = "<group>"; };
-		03390AD72E3B3550000B318A /* contribute-fr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "contribute-fr.md"; sourceTree = "<group>"; };
-		03390AD82E3B3550000B318A /* faq.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = faq.md; sourceTree = "<group>"; };
-		03390AD92E3B3550000B318A /* faq-fr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "faq-fr.md"; sourceTree = "<group>"; };
-		03390ADA2E3B3550000B318A /* index.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = index.md; sourceTree = "<group>"; };
-		03390ADB2E3B3550000B318A /* installation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = installation.md; sourceTree = "<group>"; };
-		03390ADC2E3B3550000B318A /* installation-fr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "installation-fr.md"; sourceTree = "<group>"; };
-		03390ADD2E3B3550000B318A /* overview.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = overview.md; sourceTree = "<group>"; };
-		03390ADE2E3B3550000B318A /* overview-fr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "overview-fr.md"; sourceTree = "<group>"; };
-		03390ADF2E3B3550000B318A /* usage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = usage.md; sourceTree = "<group>"; };
-		03390AE02E3B3550000B318A /* usage-fr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "usage-fr.md"; sourceTree = "<group>"; };
 		03390AE22E3B35E9000B318A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		03390AE32E3B35E9000B318A /* README_fr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_fr.md; sourceTree = "<group>"; };
-		03390AF02E3B3D8B000B318A /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		03390AF12E3B3D8B000B318A /* Help.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Help.xcstrings; sourceTree = "<group>"; };
-		03390AF22E3B3D8B000B318A /* Account.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Account.xcstrings; sourceTree = "<group>"; };
-		03390AF32E3B3D8B000B318A /* Menu.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Menu.xcstrings; sourceTree = "<group>"; };
-		03390AF42E3B3D8B000B318A /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
-		03390AF52E3B3D8B000B318A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03390AF62E3B3D8B000B318A /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
-		03390AF72E3B3D8B000B318A /* PegaseUIDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PegaseUIDataApp.swift; sourceTree = "<group>"; };
-		03390AF82E3B3D8B000B318A /* setupForNilLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setupForNilLibrary.swift; sourceTree = "<group>"; };
-		03390AF92E3B3D8B000B318A /* Sidebar1A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar1A.swift; sourceTree = "<group>"; };
-		03390AFA2E3B3D8B000B318A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
-		03390AFB2E3B3D8B000B318A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		03390AFC2E3B3D8B000B318A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -75,6 +38,23 @@
 			);
 			target = 03390ABF2E3B3464000B318A /* Icare */;
 		};
+		03390B652E3B9E6D000B318A /* Exceptions for "Docs" folder in "Icare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"contribute-fr.md",
+				contribute.md,
+				"faq-fr.md",
+				faq.md,
+				index.md,
+				"installation-fr.md",
+				installation.md,
+				"overview-fr.md",
+				overview.md,
+				"usage-fr.md",
+				usage.md,
+			);
+			target = 03390ABF2E3B3464000B318A /* Icare */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -89,6 +69,14 @@
 				03390AEF2E3B3648000B318A /* Exceptions for "Doc" folder in "Icare" target */,
 			);
 			path = Doc;
+			sourceTree = "<group>";
+		};
+		03390B642E3B9E45000B318A /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				03390B652E3B9E6D000B318A /* Exceptions for "Docs" folder in "Icare" target */,
+			);
+			path = Docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -109,26 +97,13 @@
 		03390AB72E3B3464000B318A = {
 			isa = PBXGroup;
 			children = (
+				03390B642E3B9E45000B318A /* Docs */,
 				03390AE62E3B3620000B318A /* Doc */,
 				03390AE22E3B35E9000B318A /* README.md */,
 				03390AE32E3B35E9000B318A /* README_fr.md */,
-				03390AD52E3B3523000B318A /* Docs */,
 				03390AD32E3B350E000B318A /* _config.yml */,
 				03390AD12E3B34FE000B318A /* .gitattributes */,
 				03390AC22E3B3464000B318A /* Icare */,
-				03390AF02E3B3D8B000B318A /* Localizable.xcstrings */,
-				03390AF12E3B3D8B000B318A /* Help.xcstrings */,
-				03390AF22E3B3D8B000B318A /* Account.xcstrings */,
-				03390AF32E3B3D8B000B318A /* Menu.xcstrings */,
-				03390AF42E3B3D8B000B318A /* Content.swift */,
-				03390AF52E3B3D8B000B318A /* Info.plist */,
-				03390AF62E3B3D8B000B318A /* OutlineViewController.swift */,
-				03390AF72E3B3D8B000B318A /* PegaseUIDataApp.swift */,
-				03390AF82E3B3D8B000B318A /* setupForNilLibrary.swift */,
-				03390AF92E3B3D8B000B318A /* Sidebar1A.swift */,
-				03390AFA2E3B3D8B000B318A /* SplashScreen.swift */,
-				03390AFB2E3B3D8B000B318A /* LICENSE */,
-				03390AFC2E3B3D8B000B318A /* Assets.xcassets */,
 				03390AC12E3B3464000B318A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,24 +114,6 @@
 				03390AC02E3B3464000B318A /* Icare.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		03390AD52E3B3523000B318A /* Docs */ = {
-			isa = PBXGroup;
-			children = (
-				03390AD62E3B3550000B318A /* contribute.md */,
-				03390AD72E3B3550000B318A /* contribute-fr.md */,
-				03390AD82E3B3550000B318A /* faq.md */,
-				03390AD92E3B3550000B318A /* faq-fr.md */,
-				03390ADA2E3B3550000B318A /* index.md */,
-				03390ADB2E3B3550000B318A /* installation.md */,
-				03390ADC2E3B3550000B318A /* installation-fr.md */,
-				03390ADD2E3B3550000B318A /* overview.md */,
-				03390ADE2E3B3550000B318A /* overview-fr.md */,
-				03390ADF2E3B3550000B318A /* usage.md */,
-				03390AE02E3B3550000B318A /* usage-fr.md */,
-			);
-			path = Docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +134,7 @@
 			fileSystemSynchronizedGroups = (
 				03390AC22E3B3464000B318A /* Icare */,
 				03390AE62E3B3620000B318A /* Doc */,
+				03390B642E3B9E45000B318A /* Docs */,
 			);
 			name = Icare;
 			packageProductDependencies = (
@@ -230,13 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03390B032E3B3D8B000B318A /* Help.xcstrings in Resources */,
-				03390B042E3B3D8B000B318A /* Menu.xcstrings in Resources */,
-				03390B052E3B3D8B000B318A /* Account.xcstrings in Resources */,
-				03390B062E3B3D8B000B318A /* Localizable.xcstrings in Resources */,
-				03390B072E3B3D8B000B318A /* Info.plist in Resources */,
-				03390B082E3B3D8B000B318A /* LICENSE in Resources */,
-				03390B092E3B3D8B000B318A /* Assets.xcassets in Resources */,
 				03390AD42E3B350E000B318A /* _config.yml in Resources */,
 				03390AE42E3B35E9000B318A /* README_fr.md in Resources */,
 				03390AE52E3B35E9000B318A /* README.md in Resources */,
@@ -251,12 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03390AFD2E3B3D8B000B318A /* setupForNilLibrary.swift in Sources */,
-				03390AFE2E3B3D8B000B318A /* PegaseUIDataApp.swift in Sources */,
-				03390AFF2E3B3D8B000B318A /* Content.swift in Sources */,
-				03390B002E3B3D8B000B318A /* Sidebar1A.swift in Sources */,
-				03390B012E3B3D8B000B318A /* OutlineViewController.swift in Sources */,
-				03390B022E3B3D8B000B318A /* SplashScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
