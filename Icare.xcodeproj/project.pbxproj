@@ -38,7 +38,7 @@
 			);
 			target = 03390ABF2E3B3464000B318A /* Icare */;
 		};
-		03390B652E3B9E6D000B318A /* Exceptions for "Docs" folder in "Icare" target */ = {
+		03390B652E3B9E6D000B318A /* Exceptions for "docs" folder in "Icare" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"contribute-fr.md",
@@ -71,12 +71,12 @@
 			path = Doc;
 			sourceTree = "<group>";
 		};
-		03390B642E3B9E45000B318A /* Docs */ = {
+		03390B642E3B9E45000B318A /* docs */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				03390B652E3B9E6D000B318A /* Exceptions for "Docs" folder in "Icare" target */,
+				03390B652E3B9E6D000B318A /* Exceptions for "docs" folder in "Icare" target */,
 			);
-			path = Docs;
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -97,7 +97,7 @@
 		03390AB72E3B3464000B318A = {
 			isa = PBXGroup;
 			children = (
-				03390B642E3B9E45000B318A /* Docs */,
+				03390B642E3B9E45000B318A /* docs */,
 				03390AE62E3B3620000B318A /* Doc */,
 				03390AE22E3B35E9000B318A /* README.md */,
 				03390AE32E3B35E9000B318A /* README_fr.md */,
@@ -134,7 +134,7 @@
 			fileSystemSynchronizedGroups = (
 				03390AC22E3B3464000B318A /* Icare */,
 				03390AE62E3B3620000B318A /* Doc */,
-				03390B642E3B9E45000B318A /* Docs */,
+				03390B642E3B9E45000B318A /* docs */,
 			);
 			name = Icare;
 			packageProductDependencies = (
